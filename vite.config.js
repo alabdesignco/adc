@@ -18,7 +18,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      "@animations": resolve(__dirname, "src/animations"),
+      "@pages": resolve(__dirname, "src/pages"),
       "@utils": resolve(__dirname, "src/utils"),
       "@config": resolve(__dirname, "src/config"),
     },
