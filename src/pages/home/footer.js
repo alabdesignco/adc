@@ -3,7 +3,6 @@ export default function initFooter() {
   const footerContentWrapper = document.querySelector('.footer-content_wrapper');
   
   if (!footerContentWrapper || !duplicateElement) {
-    console.warn('Footer effect elements not found');
     return;
   }
   

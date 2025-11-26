@@ -13,7 +13,11 @@ export default defineConfig({
         entryFileNames: "bundle.min.js",
         format: "iife",
         name: "WebflowBundle",
+        globals: {
+          three: "(typeof THREE !== 'undefined' ? THREE : {})",
+        },
       },
+      external: ["three"],
     },
   },
   resolve: {
