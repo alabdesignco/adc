@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
   initServices();
   initFooter();
   initLightBeams();
-  initTextScramble();
   initFaq();
+  
+  document.fonts.ready.then(() => {
+    initTextScramble();
+  });
 });
